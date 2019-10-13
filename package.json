@@ -1,6 +1,6 @@
 {
   "name": "graphql-mockgen",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Run an introspection query on a provided GraphQL API endpoint to generate a schema definition JSON and set up Apollo mocks automatically",
   "main": "index.js",
   "type": "module",

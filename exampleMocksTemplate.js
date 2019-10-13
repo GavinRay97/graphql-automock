@@ -1,13 +1,10 @@
 export default `
 import { addMockFunctionsToSchema } from 'graphql-tools'
 import { graphql, buildClientSchema} from 'graphql'
-import * as rawSchema from './schema.json'
-
-// Parse introspection query results JSON
-const introspectionResult = JSON.parse(rawSchema)
+import introspectionResult from './schema.json'
 
 // Need to pass the value of data key here
-const schema = buildClientSchema(introspectionResult.data)
+const schema = buildClientSchema(introspectionResult)
 
 // Add mocks, modifies schema in place
 addMockFunctionsToSchema({ schema })
