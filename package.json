@@ -1,0 +1,24 @@
+{
+  "name": "graphql-automock",
+  "version": "1.0.0",
+  "description": "Run an introspection query on a provided GraphQL API endpoint to generate a schema definition JSON and set up Apollo mocks automatically",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinRay97/graphql-automock.git"
+  },
+  "author": "Gavin Ray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GavinRay97/graphql-automock/issues"
+  },
+  "homepage": "https://github.com/GavinRay97/graphql-automock#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "esm": "^3.2.25"
+  }
+}
