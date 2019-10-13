@@ -1,11 +1,14 @@
 {
-  "name": "graphql-automock",
+  "name": "graphql-mockgen",
   "version": "1.0.0",
   "description": "Run an introspection query on a provided GraphQL API endpoint to generate a schema definition JSON and set up Apollo mocks automatically",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+      "graphql-mockgen": "./bin/index.js"
   },
   "repository": {
     "type": "git",
